@@ -1,2 +1,0 @@
-# scripts
-shell scripts
