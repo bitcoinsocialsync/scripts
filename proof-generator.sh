@@ -18,7 +18,7 @@ array_length() {
 echo "********************************************************************************"
 echo "*                                                                              *"
 echo "*      Make sure you downloaded this script on BitcoinSocialSync.com           *"
-echo "*    Verify the checksum against the signed one displayed on the website       *"
+# echo "*    Verify the checksum against the signed one displayed on the website       *"
 echo "*                                                                              *"
 echo "*                                                                              *"
 echo "*          First, you need to register your fingerprint on Twitter             *"
