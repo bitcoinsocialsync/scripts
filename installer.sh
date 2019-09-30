@@ -127,7 +127,7 @@ if [ -z "$PRUNING" ]; then
 fi
 
 echo "Launching bitcoind with initial import..."
-$BITCOIND $BITCOIND_OPTIONS $BITCOIND_OPTION_NO_NETWORK &> bitcoind.log & # &> /dev/null &
+$BITCOIND $BITCOIND_OPTIONS $BITCOIND_OPTION_NO_NETWORK &> /dev/null & # &> bitcoind.log & 
 BITCOIND_PID=$!
 sleep 5m
 echo "Invalidating auto import at $HASH_INVALIDATE..."
